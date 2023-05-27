@@ -6,8 +6,8 @@
 trigger:
 - master
 
-pool:
-  vmImage: 'windows-latest'
+pool: MYAgent
+ 
 
 variables:
   solution: '**/*.sln'
